@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+}
+
+.header-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.auth-page {
+  display: grid;
+  grid-template-areas:
+        'a b'
+        'c d';
+}
